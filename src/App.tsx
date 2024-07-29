@@ -36,7 +36,7 @@ function App() {
           console.log("Aborted");
           return;
         }
- 
+
         setError(e);
       } finally {
         setIsLoading(false);
